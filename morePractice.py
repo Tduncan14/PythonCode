@@ -1,4 +1,4 @@
-# Exclusive Network
+gi# Exclusive Network
  # Demonstrates logical operators and compound conditions
 
 print("\t Exclusive Computer Network ")
