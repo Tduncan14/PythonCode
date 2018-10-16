@@ -14,20 +14,19 @@ print("Try to guess it in as few attempts as possible. \n")
 
 # set the intial values
 
-the_number = random.randint(1,2)
+the_number = random.randint(1,4)
 guess = int(input("Take a guess: "))
 tries = 1
 
 # guessing loop
 
-while guess != the_number :
-    if guess > the_number :
-      print("guess lower") 
+while guess != the_number:
+    if guess > the_number:
+       print("guess lower")
     else:
-      print("Higher...")
-
-      guess = int(input("Take a guess: "))
-      tries += 1
+       print("Higher...")
+    guess = int(input("Take a guess: "))
+    tries += 1
       
 
 print("You guessed it! The number was", the_number)
