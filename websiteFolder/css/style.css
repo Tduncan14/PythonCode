@@ -87,6 +87,19 @@ hr{
      margin-top:20px;
 }
 
+.web{
+  font-size:16px;
+  text-align:center;
+  margin-right: auto;
+  margin-left: auto;
+}
+.web li{
+    text-align:center;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 10%
+}
+
 
 #footer{
     height:15%;
@@ -99,6 +112,18 @@ hr{
     bottom:0;
     width:100%;
     overflow:hidden;
+    text-align:center;
+    padding-top: 5%;
 }
+ 
 
-/*
+/* the hovering part of the page */
+
+ .breadcrumb a :visited{
+     color:purple;
+     font:white;
+ }
+
+ .breadcrumb a:active {
+     color:yellow;
+ }
