@@ -1,10 +1,81 @@
+ body{
+     background-color:gray;
+ }
 
+ #container{
+     width:auto;
+     height:900px;
+ }
+.header{
+ 
+    height:15%;
+    width:auto;
+    background-image:url(../images/universe.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+
+
+}
+
+.bread-container{
+    background-color:blue;
+
+}
+
+.bread-container ul{
+  margin-top:50px;
+}
 .breadcrumb{
     display:inline;
     cursor:pointer;
 
+  
 }
+.breadcrumb li{
+    padding:20px;
+}
+
 
 .breadcrumb a{
     text-decoration:none;
+    margin: 20px 5px;
 }
+
+.Logo {
+    margin-right:auto;
+    margin-left:auto;
+    text-align:center;
+}
+
+/* the beginning of the body styling*/
+
+.section-body {
+     width:50%;
+     height:auto;
+     display: inline-block;
+     margin-left:5%;
+     margin-top:2%;
+     margin: 4%;
+    
+}
+
+.sectionbody2{
+    width:25%;
+    height:auto;
+    display:inline-block;
+    margin-top:2%;
+    margin-right:3%;
+
+}
+
+hr{
+   
+   width:auto;
+}
+
+.intro{
+     margin-top:20px;
+}
+
+
