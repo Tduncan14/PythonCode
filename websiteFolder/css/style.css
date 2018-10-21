@@ -1,20 +1,22 @@
  body{
      background-color:gray;
+     height:100%;
+  
  }
 
  #container{
      width:auto;
-     height:900px;
+     min-height:100%;
  }
 .header{
  
-    height:15%;
+    height:25%;
     width:auto;
     background-image:url(../images/universe.jpg);
     background-repeat:no-repeat;
     background-size:cover;
     background-position:center;
-
+    padding:3%;
 
 }
 
@@ -46,8 +48,15 @@
     margin-right:auto;
     margin-left:auto;
     text-align:center;
+   
 }
 
+.Logo p {
+    font-size: 3rem;
+    font-family: 'Charmonman', cursive;
+    color:white;
+
+}
 /* the beginning of the body styling*/
 
 .section-body {
@@ -79,3 +88,17 @@ hr{
 }
 
 
+#footer{
+    height:15%;
+    width:auto;
+    background-image:url(../images/universe.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    overflow:hidden;
+}
+
+/*
