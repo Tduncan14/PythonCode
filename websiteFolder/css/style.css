@@ -54,7 +54,7 @@
 .Logo p {
     font-size: 3rem;
     font-family: 'Charmonman', cursive;
-    color:white;
+    color:whitesmoke;
 
 }
 /* the beginning of the body styling*/
@@ -93,12 +93,15 @@ hr{
   margin-right: auto;
   margin-left: auto;
 }
-.web li{
+.web ul{
     text-align:center;
     border: 1px solid black;
-    border-radius: 5px;
-    width: 10%
+    display:inline-block;
+    border-radius:8px;
+    padding:8px;
+    background-color:lightblue;
 }
+
 
 
 #footer{
@@ -115,7 +118,12 @@ hr{
     text-align:center;
     padding-top: 5%;
 }
- 
+
+#footer p{
+    font-size: 3rem;
+    font-family: 'Charmonman', cursive;
+    color:whitesmoke;
+}
 
 /* the hovering part of the page */
 
