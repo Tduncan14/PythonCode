@@ -1,3 +1,61 @@
-@media only screen and (max-width : 480px) {
-    
+@media screen and (max-width: 500px){
+
+    body{
+        height:100%;
+
+    }
+
+    #container{
+        min-height:100%;
+        width:auto;
+        overflow:auto;
+    }
+
+    .bread-container{
+        width:100%;
+        margin-right:auto;
+        margin-left:auto;
+        text-align:center;
+    }
+
+    .bread-container ul{
+     margin-right:auto ;
+     margin-left:auto;
+     text-align:center;
+
+    }
+
+    .breadcrumb li{
+        width:40%;
+        text-align:center;
+    }
+
+    .breadcrumb a{
+        width:100%;
+        border: 1px solid gray;
+        text-align:center;
+        background-color:blue;
+        padding:3%;
+        margin-right:20%;
+        border-radius:50%;
+        box-shadow: 0 3px;
+    }
+
+    .Logo p{
+          font-size:30px;
+          margin: 40px;
+          display:block;
+    }
+
+  .median{
+      width: 20%;
+  }
+
+#footer{
+    position: absolute;
+    bottom:0px;
+    left:0px;
+   
 }
+}
+
