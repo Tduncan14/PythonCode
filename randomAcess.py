@@ -12,6 +12,8 @@ print("The word is: ",word,"\n")
 high=len(word)
 low = -len(word)
 
+word[0]="j"
+
 for i in range(10):
  position =random.randrange(low, high)
  print("word[",position,"]\t",word[position])
