@@ -17,13 +17,13 @@ print("Press the enter key at 'Start' to exit.")
 
 start = None
 
-while start ! = "":
+while start != "":
     start = (input("\nStart: "))
 
     if start:
         start = int(start)
 
-        finish = int(input("Finish:")
+        finish = int(input("Finish:"))
  
         print("word[",start,":",finish, "]is", end=" ")
 
@@ -31,4 +31,3 @@ while start ! = "":
 
 
 input("\n\nPress the enter key to exit.")
-
